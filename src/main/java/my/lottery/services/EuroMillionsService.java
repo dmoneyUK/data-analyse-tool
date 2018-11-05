@@ -3,8 +3,12 @@ package my.lottery.services;
 import my.lottery.model.EuroMillionsResult;
 
 import java.util.List;
+import java.util.Map;
 
 public interface EuroMillionsService {
 
-    List<EuroMillionsResult> getAllResults();
+    List<EuroMillionsResult> getHistoryResults();
+
+    Map<Integer, Integer> getHistoryResultsOnPosition(String position);
+
 }
