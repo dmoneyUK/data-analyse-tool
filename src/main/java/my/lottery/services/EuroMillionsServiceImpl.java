@@ -30,6 +30,7 @@ public class EuroMillionsServiceImpl implements EuroMillionsService {
 
     @Override
     public List<EuroMillionsResult> getAllResults() {
+        //TODO call http://lottery.merseyworld.com/cgi-bin/lottery?days=20&Machine=Z&Ballset=0&order=0&show=1&year=0&display=NoTables
         return euroMillionsDataRepository.getHistoryResults();
     }
 

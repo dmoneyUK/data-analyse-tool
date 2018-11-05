@@ -24,7 +24,6 @@ public class EuroMillionsDataRepositoryCsvImpl implements EuroMillionsDataReposi
     private List<EuroMillionsResult> readHistoryResultFromFile(String fileName) {
 
         try {
-            //return Files.lines(Paths.get(getClass().getClassLoader().getResource("HistoryResult.csv").toURI()))
             return Files.lines(Paths.get(getClass().getClassLoader().getResource("HistoryResult.csv").toURI()))
                         .skip(1)
                         .map(line -> line.split(","))

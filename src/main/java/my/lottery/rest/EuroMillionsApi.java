@@ -15,7 +15,7 @@ public class EuroMillionsApi {
     @Autowired
     private EuroMillionsService euroMillionsService;
 
-    @RequestMapping(method = RequestMethod.GET, value = "/getAllResults")
+    @RequestMapping(method = RequestMethod.GET, value = "/getHistoryResults")
     public List<EuroMillionsResult> getAllResults() {
         return euroMillionsService.getAllResults();
     }
