@@ -9,6 +9,7 @@ public interface EuroMillionsService {
 
     List<EuroMillionsResult> getHistoryResults();
 
-    Map<Integer, Integer> getHistoryResultsOnPosition(String position);
+    Map<Integer, Integer> getHistoryResultsInPosition(String position);
 
+    EuroMillionsResult getLuckyDip();
 }

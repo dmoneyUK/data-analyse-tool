@@ -17,14 +17,19 @@ public class EuroMillionsApi {
     @Autowired
     private EuroMillionsService euroMillionsService;
 
-    @RequestMapping(method = RequestMethod.GET, value = "/getHistoryResults")
+    @RequestMapping(method = RequestMethod.GET, value = "/historyResults")
     public List<EuroMillionsResult> getHistoryResults() {
         return euroMillionsService.getHistoryResults();
     }
 
-    @RequestMapping(method = RequestMethod.GET, value = "/getHistoryResults/{position}")
+    @RequestMapping(method = RequestMethod.GET, value = "/historyResults/{position}")
     public Map<Integer, Integer> getHistoryResultsOnPosition(@PathVariable("position")String position){
-        return euroMillionsService.getHistoryResultsOnPosition(position);
+        return euroMillionsService.getHistoryResultsInPosition(position);
+    }
+
+    @RequestMapping(method = RequestMethod.GET, value = "/luckydip")
+    public EuroMillionsResult getLuckyDip(){
+        return euroMillionsService.getLuckyDip();
     }
 
 }
