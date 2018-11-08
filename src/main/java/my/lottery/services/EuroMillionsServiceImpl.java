@@ -62,7 +62,6 @@ public class EuroMillionsServiceImpl implements EuroMillionsService {
 
     @Override
     public Map<Integer, Integer> getHistoryResultsInPosition(String position) {
-        int i = 0;
         Map<Integer, Integer> valueCount = getHistoryResults()
                 .stream()
                 .map(r -> {
