@@ -12,4 +12,6 @@ public final class EuroMillionsUtils {
     public static final String N5 = "N5";
     public static final String S1 = "S1";
     public static final String S2 = "S2";
+
+    public static final String NATION_LOTTERY_URI = "results/euromillions/draw-history/csv";
 }

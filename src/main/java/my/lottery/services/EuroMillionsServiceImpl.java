@@ -1,6 +1,7 @@
 package my.lottery.services;
 
 import lombok.extern.slf4j.Slf4j;
+import my.lottery.client.NationLotteryClient;
 import my.lottery.model.EuroMillionsResult;
 import my.lottery.repository.EuroMillionsDataRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,11 +25,10 @@ import static my.lottery.common.EuroMillionsUtils.N5;
 import static my.lottery.common.EuroMillionsUtils.S1;
 import static my.lottery.common.EuroMillionsUtils.S2;
 
-@Service
 @Slf4j
+@Service
 public class EuroMillionsServiceImpl implements EuroMillionsService {
-
-    private EuroMillionsDataRepository euroMillionsDataRepository;
+    private final EuroMillionsDataRepository euroMillionsDataRepository;
 
     private List<Integer> n1List;
     private List<Integer> n2List;

@@ -12,4 +12,5 @@ public interface EuroMillionsService {
     Map<Integer, Integer> getHistoryResultsInPosition(String position);
 
     EuroMillionsResult getLuckyDip();
+
 }
