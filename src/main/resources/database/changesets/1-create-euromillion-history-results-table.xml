@@ -6,8 +6,11 @@
 
     <changeSet id="1" author="jinge.dai">
         <createTable tableName="euro_million_draws">
-            <column name="id" type="int" autoIncrement="true">
+            <column name="id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="Date" type="Date">
+                <constraints nullable="false"/>
             </column>
             <column name="Ball_1" type="int">
                 <constraints nullable="false"/>

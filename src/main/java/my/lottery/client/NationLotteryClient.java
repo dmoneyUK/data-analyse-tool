@@ -15,7 +15,7 @@ import org.springframework.web.server.ServerErrorException;
 @Component
 public class NationLotteryClient {
 
-    private String server = "https://www.national-lottery.co.uk/";
+    private String host = "https://www.national-lottery.co.uk/";
     private RestTemplate rest;
     private HttpHeaders headers;
 
@@ -26,10 +26,10 @@ public class NationLotteryClient {
         headers.add("Accept", "*/*");
     }
 
-    public String get(String uri) {
+    public String get(String url) {
         HttpEntity<String> requestEntity = new HttpEntity<String>("", headers);
         try {
-            ResponseEntity<String> responseEntity = rest.exchange(server + uri, HttpMethod.GET, requestEntity, String.class);
+            ResponseEntity<String> responseEntity = rest.exchange(url, HttpMethod.GET, requestEntity, String.class);
             return responseEntity.getBody();
         } catch (HttpServerErrorException serverException){
             log.error("Server execption: [{}]", serverException.getStackTrace());
