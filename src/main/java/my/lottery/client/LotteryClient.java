@@ -13,13 +13,12 @@ import org.springframework.web.server.ServerErrorException;
 
 @Slf4j
 @Component
-public class NationLotteryClient {
+public class LotteryClient {
 
-    private String host = "https://www.national-lottery.co.uk/";
     private RestTemplate rest;
     private HttpHeaders headers;
 
-    public NationLotteryClient() {
+    public LotteryClient() {
         this.rest = new RestTemplate();
         this.headers = new HttpHeaders();
         headers.add("Content-Type", "application/text");

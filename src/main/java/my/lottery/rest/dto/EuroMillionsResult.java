@@ -1,4 +1,4 @@
-package my.lottery.model;
+package my.lottery.rest.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

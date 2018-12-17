@@ -1,15 +1,15 @@
 package my.lottery.common;
 
-public final class EuroMillionsUtils {
+public final class LotteryConstants {
 
-    private EuroMillionsUtils() {
+    private LotteryConstants() {
     }
 
-    public static final String N1 = "N1";
-    public static final String N2 = "N2";
-    public static final String N3 = "N3";
-    public static final String N4 = "N4";
-    public static final String N5 = "N5";
+    public static final String B1 = "B1";
+    public static final String B2 = "B2";
+    public static final String B3 = "B3";
+    public static final String B4 = "B4";
+    public static final String B5 = "B5";
     public static final String S1 = "S1";
     public static final String S2 = "S2";
 

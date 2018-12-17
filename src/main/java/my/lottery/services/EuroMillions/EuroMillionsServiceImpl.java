@@ -1,9 +1,10 @@
-package my.lottery.services;
+package my.lottery.services.EuroMillions;
 
 import lombok.extern.slf4j.Slf4j;
-import my.lottery.client.NationLotteryClient;
-import my.lottery.model.EuroMillionsResult;
 import my.lottery.repository.EuroMillionsDataRepository;
+import my.lottery.rest.dto.EuroMillionsResult;
+import my.lottery.services.DataFetchingService;
+import my.lottery.services.NationalLotteryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,17 +18,18 @@ import java.util.stream.Collectors;
 
 import static java.util.Comparator.reverseOrder;
 import static java.util.stream.Collectors.toList;
-import static my.lottery.common.EuroMillionsUtils.N1;
-import static my.lottery.common.EuroMillionsUtils.N2;
-import static my.lottery.common.EuroMillionsUtils.N3;
-import static my.lottery.common.EuroMillionsUtils.N4;
-import static my.lottery.common.EuroMillionsUtils.N5;
-import static my.lottery.common.EuroMillionsUtils.S1;
-import static my.lottery.common.EuroMillionsUtils.S2;
+import static my.lottery.common.LotteryConstants.B1;
+import static my.lottery.common.LotteryConstants.B2;
+import static my.lottery.common.LotteryConstants.B3;
+import static my.lottery.common.LotteryConstants.B4;
+import static my.lottery.common.LotteryConstants.B5;
+import static my.lottery.common.LotteryConstants.S1;
+import static my.lottery.common.LotteryConstants.S2;
 
 @Slf4j
 @Service
-public class EuroMillionsServiceImpl implements EuroMillionsService {
+public class EuroMillionsServiceImpl implements NationalLotteryService {
+    private final DataFetchingService euroMillionsDataFetchingService;
     private final EuroMillionsDataRepository euroMillionsDataRepository;
 
     private List<Integer> n1List;
@@ -41,8 +43,10 @@ public class EuroMillionsServiceImpl implements EuroMillionsService {
     private SecureRandom rand;
 
     @Autowired
-    public EuroMillionsServiceImpl(EuroMillionsDataRepository euroMillionsDataRepository) {
+    public EuroMillionsServiceImpl(EuroMillionsDataRepository euroMillionsDataRepository,
+                                   DataFetchingService euroMillionsDataFetchingService) {
         this.euroMillionsDataRepository = euroMillionsDataRepository;
+        this.euroMillionsDataFetchingService = euroMillionsDataFetchingService;
         rand = new SecureRandom();
 
         n1List = new ArrayList<>();
@@ -56,7 +60,9 @@ public class EuroMillionsServiceImpl implements EuroMillionsService {
 
     @Override
     public List<EuroMillionsResult> getHistoryResults() {
+
         //TODO call http://lottery.merseyworld.com/cgi-bin/lottery?days=20&Machine=Z&Ballset=0&order=0&show=1&year=0&display=NoTables
+        euroMillionsDataFetchingService.fetchLatestEuroMillionResults();
         return euroMillionsDataRepository.getHistoryResults();
     }
 
@@ -66,15 +72,15 @@ public class EuroMillionsServiceImpl implements EuroMillionsService {
                 .stream()
                 .map(r -> {
                     switch (position.toUpperCase()) {
-                        case N1:
+                        case B1:
                             return r.getN1();
-                        case N2:
+                        case B2:
                             return r.getN2();
-                        case N3:
+                        case B3:
                             return r.getN3();
-                        case N4:
+                        case B4:
                             return r.getN4();
-                        case N5:
+                        case B5:
                             return r.getN5();
                         case S1:
                             return r.getS1();
@@ -95,11 +101,11 @@ public class EuroMillionsServiceImpl implements EuroMillionsService {
     @Override
     public EuroMillionsResult getLuckyDip() {
         EuroMillionsResult luckyDip = new EuroMillionsResult();
-        n1List = getMostLikelyNumbersInPosition(N1);
-        n2List = getMostLikelyNumbersInPosition(N2);
-        n3List = getMostLikelyNumbersInPosition(N3);
-        n4List = getMostLikelyNumbersInPosition(N4);
-        n5List = getMostLikelyNumbersInPosition(N5);
+        n1List = getMostLikelyNumbersInPosition(B1);
+        n2List = getMostLikelyNumbersInPosition(B2);
+        n3List = getMostLikelyNumbersInPosition(B3);
+        n4List = getMostLikelyNumbersInPosition(B4);
+        n5List = getMostLikelyNumbersInPosition(B5);
         s1List = getMostLikelyNumbersInPosition(S1);
         s2List = getMostLikelyNumbersInPosition(S2);
 

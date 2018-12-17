@@ -1,9 +1,8 @@
 package my.lottery.repository;
 
-import my.lottery.model.EuroMillionsResult;
+import my.lottery.rest.dto.EuroMillionsResult;
 
 import java.util.List;
-import java.util.Map;
 
 public interface EuroMillionsDataRepository {
 

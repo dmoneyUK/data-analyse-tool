@@ -1,16 +1,15 @@
-package my.lottery.repository;
+package my.lottery.repository.impl;
 
 import lombok.extern.slf4j.Slf4j;
-import my.lottery.model.EuroMillionsResult;
+import my.lottery.repository.EuroMillionsDataRepository;
+import my.lottery.rest.dto.EuroMillionsResult;
 import org.springframework.stereotype.Repository;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @Slf4j
 @Repository
