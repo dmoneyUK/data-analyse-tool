@@ -1,6 +1,6 @@
 package my.lottery.rest;
 
-import my.lottery.rest.dto.EuroMillionsResult;
+import my.lottery.rest.dto.EuroMillionsResultDto;
 import my.lottery.services.NationalLotteryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,7 +18,7 @@ public class EuroMillionsApi {
     private NationalLotteryService euroMillionsService;
 
     @RequestMapping(method = RequestMethod.GET, value = "/historyResults")
-    public List<EuroMillionsResult> getHistoryResults() {
+    public List<EuroMillionsResultDto> getHistoryResults() {
         return euroMillionsService.getHistoryResults();
     }
 
@@ -28,7 +28,7 @@ public class EuroMillionsApi {
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/luckydip")
-    public EuroMillionsResult getLuckyDip() {
+    public EuroMillionsResultDto getLuckyDip() {
         return euroMillionsService.getLuckyDip();
     }
 

@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor
-public class EuroMillionsResult {
+public class EuroMillionsResultDto {
 
     private int n1;
     private int n2;

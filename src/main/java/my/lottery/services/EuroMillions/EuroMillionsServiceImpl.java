@@ -2,7 +2,7 @@ package my.lottery.services.EuroMillions;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.repository.EuroMillionsDataRepository;
-import my.lottery.rest.dto.EuroMillionsResult;
+import my.lottery.rest.dto.EuroMillionsResultDto;
 import my.lottery.services.DataFetchingService;
 import my.lottery.services.NationalLotteryService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -59,10 +59,11 @@ public class EuroMillionsServiceImpl implements NationalLotteryService {
     }
 
     @Override
-    public List<EuroMillionsResult> getHistoryResults() {
+    public List<EuroMillionsResultDto> getHistoryResults() {
 
         //TODO call http://lottery.merseyworld.com/cgi-bin/lottery?days=20&Machine=Z&Ballset=0&order=0&show=1&year=0&display=NoTables
         euroMillionsDataFetchingService.fetchLatestEuroMillionResults();
+
         return euroMillionsDataRepository.getHistoryResults();
     }
 
@@ -99,8 +100,8 @@ public class EuroMillionsServiceImpl implements NationalLotteryService {
     }
 
     @Override
-    public EuroMillionsResult getLuckyDip() {
-        EuroMillionsResult luckyDip = new EuroMillionsResult();
+    public EuroMillionsResultDto getLuckyDip() {
+        EuroMillionsResultDto luckyDip = new EuroMillionsResultDto();
         n1List = getMostLikelyNumbersInPosition(B1);
         n2List = getMostLikelyNumbersInPosition(B2);
         n3List = getMostLikelyNumbersInPosition(B3);

@@ -2,7 +2,7 @@ package my.lottery.repository.impl;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.repository.EuroMillionsDataRepository;
-import my.lottery.rest.dto.EuroMillionsResult;
+import my.lottery.rest.dto.EuroMillionsResultDto;
 import org.springframework.stereotype.Repository;
 
 import java.nio.file.Files;
@@ -16,20 +16,20 @@ import java.util.stream.Collectors;
 public class EuroMillionsDataRepositoryCsvImpl implements EuroMillionsDataRepository {
 
     @Override
-    public List<EuroMillionsResult> getHistoryResults() {
+    public List<EuroMillionsResultDto> getHistoryResults() {
         return readHistoryResultFromFile("HistoryResult.csv");
     }
 
-    private List<EuroMillionsResult> readHistoryResultFromFile(String fileName) {
+    private List<EuroMillionsResultDto> readHistoryResultFromFile(String fileName) {
 
         try {
             return Files.lines(Paths.get(getClass().getClassLoader().getResource("HistoryResult.csv").toURI()))
                         .skip(1)
                         .map(line -> line.split(","))
-                        .map(fields -> new EuroMillionsResult(Integer.valueOf(fields[5].trim()), Integer.valueOf(fields[6].trim()),
-                                                              Integer.valueOf(fields[7].trim()), Integer.valueOf(fields[8].trim()),
-                                                              Integer.valueOf(fields[9].trim()), Integer.valueOf(fields[10].trim()),
-                                                              Integer.valueOf(fields[11].trim())))
+                        .map(fields -> new EuroMillionsResultDto(Integer.valueOf(fields[5].trim()), Integer.valueOf(fields[6].trim()),
+                                                                 Integer.valueOf(fields[7].trim()), Integer.valueOf(fields[8].trim()),
+                                                                 Integer.valueOf(fields[9].trim()), Integer.valueOf(fields[10].trim()),
+                                                                 Integer.valueOf(fields[11].trim())))
                         .collect(Collectors.toList());
 
         } catch (Exception e) {

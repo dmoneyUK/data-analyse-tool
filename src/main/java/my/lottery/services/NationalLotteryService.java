@@ -1,16 +1,16 @@
 package my.lottery.services;
 
-import my.lottery.rest.dto.EuroMillionsResult;
+import my.lottery.rest.dto.EuroMillionsResultDto;
 
 import java.util.List;
 import java.util.Map;
 
 public interface NationalLotteryService {
 
-    List<EuroMillionsResult> getHistoryResults();
+    List<EuroMillionsResultDto> getHistoryResults();
 
     Map<Integer, Integer> getHistoryResultsInPosition(String position);
 
-    EuroMillionsResult getLuckyDip();
+    EuroMillionsResultDto getLuckyDip();
 
 }
