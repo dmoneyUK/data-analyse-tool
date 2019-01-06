@@ -1,10 +1,10 @@
 package my.lottery.repository;
 
-import my.lottery.rest.dto.EuroMillionsResultDto;
+import my.lottery.rest.dto.EuroMillionsTicketDto;
 
 import java.util.List;
 
 public interface EuroMillionsDataRepository {
 
-     List<EuroMillionsResultDto> getHistoryResults();
+     List<EuroMillionsTicketDto> getHistoryResults();
 }

@@ -4,7 +4,7 @@ import my.lottery.rest.dto.EuroMillionsTicketDto;
 
 import java.util.List;
 
-public interface DataFetchingService {
+public interface LotterySyndicateService {
 
-    List<EuroMillionsTicketDto> fetchEuroMillionTickets();
+    List<EuroMillionsTicketDto> getTickets();
 }

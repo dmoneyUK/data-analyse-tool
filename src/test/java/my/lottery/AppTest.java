@@ -22,7 +22,7 @@ public class AppTest {
 
     @Test
     public void fetchAllYearsLottoData() {
-        this.restTemplate.getForObject("http://localhost:" + port + "/historyResults",
+        this.restTemplate.getForObject("http://localhost:" + port + "/lottery-syndicate",
                                        String.class);
     }
 

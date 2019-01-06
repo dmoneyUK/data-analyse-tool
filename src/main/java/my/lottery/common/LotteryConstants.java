@@ -15,4 +15,5 @@ public final class LotteryConstants {
 
     public static final String EUROMILLION_URL = "https://www.euro-millions.com/results-archive-2017";
     public static final String LOTTO_URL = "https://www.lottery.co.uk/lotto/results/archive-2018";
+    public static final String LOTTERY_SYNDICATE_URL = "https://www.uk-lotterysyndicate.com/january-tickets/";
 }

@@ -2,10 +2,11 @@ package my.lottery.services.EuroMillions;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.repository.EuroMillionsDataRepository;
-import my.lottery.rest.dto.EuroMillionsResultDto;
+import my.lottery.rest.dto.EuroMillionsTicketDto;
 import my.lottery.services.DataFetchingService;
 import my.lottery.services.NationalLotteryService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.security.SecureRandom;
@@ -43,8 +44,8 @@ public class EuroMillionsServiceImpl implements NationalLotteryService {
     private SecureRandom rand;
 
     @Autowired
-    public EuroMillionsServiceImpl(EuroMillionsDataRepository euroMillionsDataRepository,
-                                   DataFetchingService euroMillionsDataFetchingService) {
+    public EuroMillionsServiceImpl(final EuroMillionsDataRepository euroMillionsDataRepository,
+                                   final @Qualifier("euroMillionsDataFetchingService") DataFetchingService euroMillionsDataFetchingService) {
         this.euroMillionsDataRepository = euroMillionsDataRepository;
         this.euroMillionsDataFetchingService = euroMillionsDataFetchingService;
         rand = new SecureRandom();
@@ -59,10 +60,10 @@ public class EuroMillionsServiceImpl implements NationalLotteryService {
     }
 
     @Override
-    public List<EuroMillionsResultDto> getHistoryResults() {
+    public List<EuroMillionsTicketDto> getHistoryResults() {
 
         //TODO call http://lottery.merseyworld.com/cgi-bin/lottery?days=20&Machine=Z&Ballset=0&order=0&show=1&year=0&display=NoTables
-        euroMillionsDataFetchingService.fetchLatestEuroMillionResults();
+        euroMillionsDataFetchingService.fetchEuroMillionTickets();
 
         return euroMillionsDataRepository.getHistoryResults();
     }
@@ -100,8 +101,8 @@ public class EuroMillionsServiceImpl implements NationalLotteryService {
     }
 
     @Override
-    public EuroMillionsResultDto getLuckyDip() {
-        EuroMillionsResultDto luckyDip = new EuroMillionsResultDto();
+    public EuroMillionsTicketDto getLuckyDip() {
+        EuroMillionsTicketDto luckyDip = new EuroMillionsTicketDto();
         n1List = getMostLikelyNumbersInPosition(B1);
         n2List = getMostLikelyNumbersInPosition(B2);
         n3List = getMostLikelyNumbersInPosition(B3);

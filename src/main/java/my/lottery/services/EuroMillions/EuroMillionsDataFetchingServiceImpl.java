@@ -2,6 +2,7 @@ package my.lottery.services.EuroMillions;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.client.LotteryClient;
+import my.lottery.rest.dto.EuroMillionsTicketDto;
 import my.lottery.services.DataFetchingService;
 import my.lottery.services.EuroMillions.data.EuroMillionDrawResultData;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +10,8 @@ import org.springframework.stereotype.Service;
 
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,7 +20,7 @@ import java.util.stream.Collectors;
 import static my.lottery.common.LotteryConstants.EUROMILLION_URL;
 
 @Slf4j
-@Service
+@Service("euroMillionsDataFetchingService")
 public class EuroMillionsDataFetchingServiceImpl implements DataFetchingService {
 
     private final LotteryClient lotteryClient;
@@ -27,7 +30,7 @@ public class EuroMillionsDataFetchingServiceImpl implements DataFetchingService 
         this.lotteryClient = nationalLotteryClient;
     }
 
-    public String fetchLatestEuroMillionResults() {
+    public List<EuroMillionsTicketDto> fetchEuroMillionTickets() {
         String result = this.lotteryClient.get(EUROMILLION_URL);
 
         String[] lines = result.split("<a class=\"title\" href=\"/results/");
@@ -49,7 +52,7 @@ public class EuroMillionsDataFetchingServiceImpl implements DataFetchingService 
             return new EuroMillionDrawResultData();
 
         }).collect(Collectors.toList());
-        return result;
+        return Collections.emptyList();
     }
 
     private String getNumber(String line) {
