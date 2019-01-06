@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a4ddf00-fbce-472b-8df4-ae98d00d9b9f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/repository/EuroMillionsDataRepository.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/repository/EuroMillionsDataRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/EuroMillionsApi.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/EuroMillionsApi.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsDataFetchingServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/data/EuroMillionDrawResultData.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicateService.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicateService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/NationalLotteryService.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/NationalLotteryService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,48 +20,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EuroMillionsDataRepositoryCsvImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java">
+      <file leaf-file-name="LotterySyndicateDataFetchingServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="305">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
               <folding>
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#623#624#0" expanded="true" />
+                <marker date="1546787974000" expanded="true" signature="3749:3772" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EuroMillionsApi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/rest/EuroMillionsApi.java">
+      <file leaf-file-name="LotterySyndicateServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="33" column="75" lean-forward="false" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+            <state relative-caret-position="225">
+              <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LotterySyndicateApi.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EuroMillionsTicketDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="38" column="39" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -162,13 +127,13 @@
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/EuroMillionsApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -432,25 +397,6 @@
               <item name="lottery" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-analyse-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-analyse-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
@@ -1068,29 +1014,11 @@
       <workItem from="1546636363786" duration="10672000" />
       <workItem from="1546696613019" duration="6003000" />
       <workItem from="1546723053049" duration="9960000" />
-      <workItem from="1546782521077" duration="3414000" />
+      <workItem from="1546782521077" duration="4784000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.01.06 at 00h 13m 39s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.06 at 00h 13m 55s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.06 at 00h 17m 14s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.06 at 13h 50m 21s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.06 at 14h 05m 31s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.06 at 14h 06m 47s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2019.01.06 at 14h 07m 33s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -1103,9 +1031,27 @@
     <history-entry file="AppTest - 2019.01.06 at 14h 10m 46s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 15h 01m 33s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 15h 14m 03s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 15h 14m 18s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 15h 19m 29s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 15h 20m 15s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 15h 24m 10s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99482000" />
+    <option name="totallyTimeSpent" value="100852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="6" />
@@ -1120,9 +1066,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3853591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3853591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1199,20 +1145,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java</url>
-          <line>62</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="221" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java</url>
-          <line>35</line>
-          <properties>
-            <option name="lambda-ordinal" value="0" />
-          </properties>
-          <option name="timeStamp" value="276" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="277" />
+      <option name="time" value="283" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1266,13 +1204,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/select/NodeFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/select/CombiningEvaluator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1541,14 +1472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1579,27 +1502,6 @@
           <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="48" column="40" lean-forward="false" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
-          <folding>
-            <marker date="1546786491000" expanded="true" signature="3008:3031" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1639,6 +1541,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/rest/EuroMillionsApi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1655,6 +1565,35 @@
         <state relative-caret-position="210">
           <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <marker date="1546787974000" expanded="true" signature="3749:3772" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

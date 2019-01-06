@@ -8,6 +8,8 @@ import my.lottery.services.data.EuroMillionsTicket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -57,6 +59,14 @@ public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingServ
                       tickets.get(tickets.size() - 3).setCode(codes[1]);
                       tickets.get(tickets.size() - 2).setCode(codes[2]);
                       tickets.get(tickets.size() - 1).setCode(codes[3]);
+                  }else if(li.matches("<li>(Tue|Fri) \\d\\d \\S\\S\\S \\d\\d\\d\\d</li>")){
+                      String drawDateLine = li.replace("<li>", "").replace("</li>","");
+                      DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E d MMM yyyy");
+                      LocalDate drawDate = LocalDate.parse(drawDateLine, formatter);
+                      tickets.get(tickets.size() - 4).setDrawDate(drawDate);
+                      tickets.get(tickets.size() - 3).setDrawDate(drawDate);
+                      tickets.get(tickets.size() - 2).setDrawDate(drawDate);
+                      tickets.get(tickets.size() - 1).setDrawDate(drawDate);
                   }
               });
 
