@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a4ddf00-fbce-472b-8df4-ae98d00d9b9f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicateService.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/repository/EuroMillionsDataRepository.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/repository/EuroMillionsDataRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/EuroMillionsApi.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/EuroMillionsApi.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsResultDto.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsDataFetchingServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsDataFetchingServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/NationalLotteryService.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/NationalLotteryService.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/my/lottery/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/my/lottery/AppTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +21,10 @@
       <file leaf-file-name="LotterySyndicateDataFetchingServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+            <state relative-caret-position="362">
+              <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
               <folding>
-                <element signature="e#5577#5634#0" expanded="false" />
-                <marker date="1546733726000" expanded="true" signature="5577:7995" ph="..." />
+                <marker date="1546783865000" expanded="true" signature="2971:2994" ph="..." />
               </folding>
             </state>
           </provider>
@@ -48,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="31" column="99" lean-forward="true" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
+              <caret line="31" column="99" lean-forward="false" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -67,7 +53,7 @@
       <file leaf-file-name="EuroMillionsDataFetchingServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsDataFetchingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="525">
               <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
               <folding />
             </state>
@@ -161,8 +147,8 @@
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsDataFetchingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -354,6 +340,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -766,9 +755,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1062,32 +1048,12 @@
       <workItem from="1546591831595" duration="2255000" />
       <workItem from="1546636363786" duration="10672000" />
       <workItem from="1546696613019" duration="6003000" />
-      <workItem from="1546723053049" duration="9918000" />
+      <workItem from="1546723053049" duration="9960000" />
+      <workItem from="1546782521077" duration="1343000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.01.05 at 23h 53m 56s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.05 at 23h 54m 13s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.05 at 23h 54m 55s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.05 at 23h 55m 45s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.06 at 00h 04m 35s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.06 at 00h 11m 38s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.01.06 at 00h 12m 48s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2019.01.06 at 00h 13m 39s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -1097,12 +1063,34 @@
     <history-entry file="AppTest - 2019.01.06 at 00h 17m 14s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 13h 50m 21s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 14h 05m 31s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 14h 06m 47s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 14h 07m 33s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 14h 08m 11s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 14h 09m 45s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.01.06 at 14h 10m 46s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96026000" />
+    <option name="totallyTimeSpent" value="97411000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="819" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1113,7 +1101,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35359117" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3853591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1124,7 +1112,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30939227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3104435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31473532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1192,36 +1180,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java</url>
-          <line>126</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="221" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java</url>
-          <line>110</line>
-          <properties />
-          <option name="timeStamp" value="230" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java</url>
-          <line>117</line>
-          <properties />
-          <option name="timeStamp" value="232" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java</url>
-          <line>123</line>
-          <properties />
-          <option name="timeStamp" value="234" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java</url>
-          <line>104</line>
-          <properties />
-          <option name="timeStamp" value="235" />
+          <line>34</line>
+          <properties>
+            <option name="lambda-ordinal" value="0" />
+          </properties>
+          <option name="timeStamp" value="276" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="274" />
+      <option name="time" value="277" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1477,7 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1485,9 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1495,7 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1503,7 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1519,7 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1543,7 +1508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,27 +1523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1560">
           <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding>
-            <marker date="1540973399000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1540973399000" expanded="false" signature="162:864" ph="..." />
-            <marker date="1540973399000" expanded="false" signature="1272:1283" ph=" { " />
-            <marker date="1540973399000" expanded="false" signature="1304:1310" ph=" }" />
-            <marker date="1540973399000" expanded="false" signature="1373:1384" ph=" { " />
-            <marker date="1540973399000" expanded="false" signature="1404:1410" ph=" }" />
-            <marker date="1540973399000" expanded="true" signature="1532:1588" ph="{...}" />
-            <marker date="1540973399000" expanded="false" signature="1666:1677" ph=" { " />
-            <marker date="1540973399000" expanded="false" signature="1720:1726" ph=" }" />
-            <marker date="1540973399000" expanded="true" signature="1836:1895" ph="{...}" />
-            <marker date="1540973399000" expanded="true" signature="1989:2060" ph="{...}" />
-            <marker date="1540973399000" expanded="true" signature="2224:2483" ph="{...}" />
-            <marker date="1540973399000" expanded="true" signature="2645:4025" ph="{...}" />
-            <marker date="1540973399000" expanded="true" signature="4112:4302" ph="{...}" />
-            <marker date="1540973399000" expanded="true" signature="4422:4880" ph="{...}" />
-            <marker date="1540973399000" expanded="true" signature="4945:6037" ph="{...}" />
-            <marker date="1540973399000" expanded="true" signature="6122:6710" ph="{...}" />
-            <marker date="1540973399000" expanded="true" signature="6777:7250" ph="{...}" />
-            <marker date="1540973399000" expanded="true" signature="6866:7020" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1587,7 +1530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="262" column="53" lean-forward="false" selection-start-line="262" selection-start-column="53" selection-end-line="262" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1611,7 +1553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1619,7 +1560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1627,9 +1567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1643,7 +1580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsDataFetchingServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="525">
           <caret line="54" column="38" lean-forward="false" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding />
         </state>
@@ -1653,7 +1590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1668,18 +1604,17 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="31" column="99" lean-forward="true" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
+          <caret line="31" column="99" lean-forward="false" selection-start-line="31" selection-start-column="99" selection-end-line="31" selection-end-column="99" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+        <state relative-caret-position="362">
+          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
           <folding>
-            <element signature="e#5577#5634#0" expanded="false" />
-            <marker date="1546733726000" expanded="true" signature="5577:7995" ph="..." />
+            <marker date="1546783865000" expanded="true" signature="2971:2994" ph="..." />
           </folding>
         </state>
       </provider>
