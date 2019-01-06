@@ -13,7 +13,8 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @RestController
-public class EuroMillionsApi {
+@RequestMapping("euro-millions")
+public class NationalLotteryApi {
 
     @Autowired
     private NationalLotteryService euroMillionsService;

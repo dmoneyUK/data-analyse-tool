@@ -21,9 +21,14 @@ public class AppTest {
     private TestRestTemplate restTemplate;
 
     @Test
-    public void fetchAllYearsLottoData() {
+    public void fetchLotterySyndicateTickets() {
         this.restTemplate.getForObject("http://localhost:" + port + "/lottery-syndicate",
                                        String.class);
     }
 
+    @Test
+    public void fetchEuroMillionsDrawResults() {
+        this.restTemplate.getForObject("http://localhost:" + port + "/euro-millions/historyResults",
+                                       String.class);
+    }
 }
