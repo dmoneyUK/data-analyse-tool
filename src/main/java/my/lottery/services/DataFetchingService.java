@@ -1,10 +1,10 @@
 package my.lottery.services;
 
-import my.lottery.rest.dto.EuroMillionsTicketDto;
+import my.lottery.services.data.EuroMillionsTicket;
 
 import java.util.List;
 
 public interface DataFetchingService {
 
-    List<EuroMillionsTicketDto> fetchEuroMillionTickets();
+    List<EuroMillionsTicket> fetchEuroMillionTickets();
 }

@@ -1,10 +1,11 @@
-package my.lottery.services.EuroMillions;
+package my.lottery.services.nationallottery;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.repository.EuroMillionsDataRepository;
 import my.lottery.rest.dto.EuroMillionsTicketDto;
 import my.lottery.services.DataFetchingService;
 import my.lottery.services.NationalLotteryService;
+import my.lottery.services.data.EuroMillionsTicket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -29,7 +30,7 @@ import static my.lottery.common.LotteryConstants.S2;
 
 @Slf4j
 @Service
-public class EuroMillionsServiceImpl implements NationalLotteryService {
+public class NationalLotteryServiceImpl implements NationalLotteryService {
     private final DataFetchingService euroMillionsDataFetchingService;
     private final EuroMillionsDataRepository euroMillionsDataRepository;
 
@@ -44,8 +45,8 @@ public class EuroMillionsServiceImpl implements NationalLotteryService {
     private SecureRandom rand;
 
     @Autowired
-    public EuroMillionsServiceImpl(final EuroMillionsDataRepository euroMillionsDataRepository,
-                                   final @Qualifier("euroMillionsDataFetchingService") DataFetchingService euroMillionsDataFetchingService) {
+    public NationalLotteryServiceImpl(final EuroMillionsDataRepository euroMillionsDataRepository,
+                                      final @Qualifier("nationalLotteryDataFetchingService") DataFetchingService euroMillionsDataFetchingService) {
         this.euroMillionsDataRepository = euroMillionsDataRepository;
         this.euroMillionsDataFetchingService = euroMillionsDataFetchingService;
         rand = new SecureRandom();
@@ -60,7 +61,7 @@ public class EuroMillionsServiceImpl implements NationalLotteryService {
     }
 
     @Override
-    public List<EuroMillionsTicketDto> getHistoryResults() {
+    public List<EuroMillionsTicket> getHistoryResults() {
 
         //TODO call http://lottery.merseyworld.com/cgi-bin/lottery?days=20&Machine=Z&Ballset=0&order=0&show=1&year=0&display=NoTables
         euroMillionsDataFetchingService.fetchEuroMillionTickets();
@@ -101,8 +102,8 @@ public class EuroMillionsServiceImpl implements NationalLotteryService {
     }
 
     @Override
-    public EuroMillionsTicketDto getLuckyDip() {
-        EuroMillionsTicketDto luckyDip = new EuroMillionsTicketDto();
+    public EuroMillionsTicket getLuckyDip() {
+        EuroMillionsTicket luckyDip = new EuroMillionsTicket();
         n1List = getMostLikelyNumbersInPosition(B1);
         n2List = getMostLikelyNumbersInPosition(B2);
         n3List = getMostLikelyNumbersInPosition(B3);

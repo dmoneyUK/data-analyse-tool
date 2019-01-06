@@ -1,13 +1,12 @@
 package my.lottery.services.LotterySyndicate;
 
-import my.lottery.rest.dto.EuroMillionsTicketDto;
 import my.lottery.services.DataFetchingService;
 import my.lottery.services.LotterySyndicateService;
+import my.lottery.services.data.EuroMillionsTicket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -21,8 +20,7 @@ public class LotterySyndicateServiceImpl implements LotterySyndicateService {
     }
 
     @Override
-    public List<EuroMillionsTicketDto> getTickets() {
-         dataFetchingService.fetchEuroMillionTickets();
-         return new ArrayList<>();
+    public List<EuroMillionsTicket> getTickets() {
+         return dataFetchingService.fetchEuroMillionTickets();
     }
 }

@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import my.lottery.client.LotteryClient;
 import my.lottery.rest.dto.EuroMillionsTicketDto;
 import my.lottery.services.DataFetchingService;
+import my.lottery.services.data.EuroMillionsTicket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -24,10 +25,10 @@ public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingServ
         this.lotteryClient = nationalLotteryClient;
     }
 
-    public List<EuroMillionsTicketDto> fetchEuroMillionTickets() {
+    public List<EuroMillionsTicket> fetchEuroMillionTickets() {
         String result = this.lotteryClient.get(LOTTERY_SYNDICATE_URL);
 
-        List<EuroMillionsTicketDto> tickets = new ArrayList<>();
+        List<EuroMillionsTicket> tickets = new ArrayList<>();
         Arrays.stream(result.split("<div class=\"fl-col-content fl-node-content\">"))
               .filter(col -> col.contains("EuroMillions"))
               .flatMap(content -> Arrays.stream(content.split("<ul>")))
@@ -35,7 +36,7 @@ public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingServ
               .flatMap(ul -> Arrays.stream(ul.replace("\n", "").split("</ul>")))
               .forEach(li -> {
                   if (li.matches("(<li>\\d\\d</li>){5}")) {
-                      EuroMillionsTicketDto euroMillionsTicket = new EuroMillionsTicketDto();
+                      EuroMillionsTicket euroMillionsTicket = new EuroMillionsTicket();
                       String[] numbers = li.replace("<li>", "").split("</li>");
                       euroMillionsTicket.setN1(Integer.valueOf(numbers[0]));
                       euroMillionsTicket.setN2(Integer.valueOf(numbers[1]));
@@ -45,7 +46,7 @@ public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingServ
                       tickets.add(euroMillionsTicket);
 
                   } else if (li.matches("(<li>\\d\\d</li>){2}")) {
-                      EuroMillionsTicketDto euroMillionsTicket = tickets.get(tickets.size() - 1);
+                      EuroMillionsTicket euroMillionsTicket = tickets.get(tickets.size() - 1);
                       String[] stars = li.replace("<li>", "").split("</li>");
                       euroMillionsTicket.setS1(Integer.valueOf(stars[0]));
                       euroMillionsTicket.setS2(Integer.valueOf(stars[1]));

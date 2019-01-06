@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @RestController
 public class EuroMillionsApi {
@@ -19,7 +20,8 @@ public class EuroMillionsApi {
 
     @RequestMapping(method = RequestMethod.GET, value = "/historyResults")
     public List<EuroMillionsTicketDto> getHistoryResults() {
-        return euroMillionsService.getHistoryResults();
+        return euroMillionsService.getHistoryResults().stream().map(ticket -> new EuroMillionsTicketDto(ticket))
+                                  .collect(Collectors.toList());
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "/historyResults/{position}")
@@ -29,7 +31,7 @@ public class EuroMillionsApi {
 
     @RequestMapping(method = RequestMethod.GET, value = "/luckydip")
     public EuroMillionsTicketDto getLuckyDip() {
-        return euroMillionsService.getLuckyDip();
+        return new EuroMillionsTicketDto(euroMillionsService.getLuckyDip());
     }
 
 }

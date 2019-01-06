@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 public class LotterySyndicateApi {
@@ -16,7 +17,10 @@ public class LotterySyndicateApi {
 
     @RequestMapping(method = RequestMethod.GET, value = "/lottery-syndicate")
     public List<EuroMillionsTicketDto> getHistoryResults() {
-        return lotterySyndicateService.getTickets();
+        return lotterySyndicateService.getTickets()
+                                      .stream()
+                                      .map(ticket -> new EuroMillionsTicketDto(ticket))
+                                      .collect(Collectors.toList());
     }
 
 }

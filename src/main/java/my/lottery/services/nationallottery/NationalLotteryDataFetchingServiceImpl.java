@@ -1,10 +1,9 @@
-package my.lottery.services.EuroMillions;
+package my.lottery.services.nationallottery;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.client.LotteryClient;
-import my.lottery.rest.dto.EuroMillionsTicketDto;
 import my.lottery.services.DataFetchingService;
-import my.lottery.services.EuroMillions.data.EuroMillionDrawResultData;
+import my.lottery.services.data.EuroMillionsTicket;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,17 +19,17 @@ import java.util.stream.Collectors;
 import static my.lottery.common.LotteryConstants.EUROMILLION_URL;
 
 @Slf4j
-@Service("euroMillionsDataFetchingService")
-public class EuroMillionsDataFetchingServiceImpl implements DataFetchingService {
+@Service("nationalLotteryDataFetchingService")
+public class NationalLotteryDataFetchingServiceImpl implements DataFetchingService {
 
     private final LotteryClient lotteryClient;
 
     @Autowired
-    public EuroMillionsDataFetchingServiceImpl(LotteryClient nationalLotteryClient) {
+    public NationalLotteryDataFetchingServiceImpl(LotteryClient nationalLotteryClient) {
         this.lotteryClient = nationalLotteryClient;
     }
 
-    public List<EuroMillionsTicketDto> fetchEuroMillionTickets() {
+    public List<EuroMillionsTicket> fetchEuroMillionTickets() {
         String result = this.lotteryClient.get(EUROMILLION_URL);
 
         String[] lines = result.split("<a class=\"title\" href=\"/results/");
@@ -49,7 +48,7 @@ public class EuroMillionsDataFetchingServiceImpl implements DataFetchingService 
             });
 
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEE, d MMM yyyy", Locale.ENGLISH);
-            return new EuroMillionDrawResultData();
+            return new EuroMillionsTicket();
 
         }).collect(Collectors.toList());
         return Collections.emptyList();
