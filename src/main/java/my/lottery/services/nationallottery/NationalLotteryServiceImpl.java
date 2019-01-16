@@ -2,7 +2,6 @@ package my.lottery.services.nationallottery;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.repository.EuroMillionsDataRepository;
-import my.lottery.rest.dto.EuroMillionsTicketDto;
 import my.lottery.services.DataFetchingService;
 import my.lottery.services.NationalLotteryService;
 import my.lottery.services.data.EuroMillionsTicket;
@@ -76,15 +75,15 @@ public class NationalLotteryServiceImpl implements NationalLotteryService {
                 .map(r -> {
                     switch (position.toUpperCase()) {
                         case B1:
-                            return r.getN1();
+                            return r.getB1();
                         case B2:
-                            return r.getN2();
+                            return r.getB2();
                         case B3:
-                            return r.getN3();
+                            return r.getB3();
                         case B4:
-                            return r.getN4();
+                            return r.getB4();
                         case B5:
-                            return r.getN5();
+                            return r.getB5();
                         case S1:
                             return r.getS1();
                         case S2:
@@ -112,11 +111,11 @@ public class NationalLotteryServiceImpl implements NationalLotteryService {
         s1List = getMostLikelyNumbersInPosition(S1);
         s2List = getMostLikelyNumbersInPosition(S2);
 
-        luckyDip.setN1(getLuckyNumberInPosition(n1List));
-        luckyDip.setN2(getLuckyNumberInPosition(n2List));
-        luckyDip.setN3(getLuckyNumberInPosition(n3List));
-        luckyDip.setN4(getLuckyNumberInPosition(n4List));
-        luckyDip.setN5(getLuckyNumberInPosition(n5List));
+        luckyDip.setB1(getLuckyNumberInPosition(n1List));
+        luckyDip.setB2(getLuckyNumberInPosition(n2List));
+        luckyDip.setB3(getLuckyNumberInPosition(n3List));
+        luckyDip.setB4(getLuckyNumberInPosition(n4List));
+        luckyDip.setB5(getLuckyNumberInPosition(n5List));
         luckyDip.setS1(getLuckyNumberInPosition(s1List));
         luckyDip.setS2(getLuckyNumberInPosition(s2List));
         return luckyDip;

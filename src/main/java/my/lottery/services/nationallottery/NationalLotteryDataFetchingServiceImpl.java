@@ -47,11 +47,11 @@ public class NationalLotteryDataFetchingServiceImpl implements DataFetchingServi
                                      return;
                                  } else if (span.matches("\\d\\d - \\d\\d - \\d\\d - \\d\\d - \\d\\d")) {
                                      String[] balls = span.split(" - ");
-                                     drawResult.setN1(Integer.valueOf(balls[0]));
-                                     drawResult.setN2(Integer.valueOf(balls[1]));
-                                     drawResult.setN3(Integer.valueOf(balls[2]));
-                                     drawResult.setN4(Integer.valueOf(balls[3]));
-                                     drawResult.setN5(Integer.valueOf(balls[4]));
+                                     drawResult.setB1(Integer.valueOf(balls[0]));
+                                     drawResult.setB2(Integer.valueOf(balls[1]));
+                                     drawResult.setB3(Integer.valueOf(balls[2]));
+                                     drawResult.setB4(Integer.valueOf(balls[3]));
+                                     drawResult.setB5(Integer.valueOf(balls[4]));
                                      return;
                                  } else if (span.matches("\\d\\d - \\d\\d")) {
                                      String[] stars = span.split(" - ");

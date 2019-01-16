@@ -15,11 +15,11 @@ import java.time.LocalDate;
 @ToString
 public class EuroMillionsTicket {
 
-    private int n1;
-    private int n2;
-    private int n3;
-    private int n4;
-    private int n5;
+    private int b1;
+    private int b2;
+    private int b3;
+    private int b4;
+    private int b5;
     private int s1;
     private int s2;
     private String code;

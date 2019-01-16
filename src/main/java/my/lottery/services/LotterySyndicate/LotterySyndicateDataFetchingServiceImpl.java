@@ -40,11 +40,11 @@ public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingServ
                   if (li.matches("(<li>\\d\\d</li>){5}")) {
                       EuroMillionsTicket euroMillionsTicket = new EuroMillionsTicket();
                       String[] numbers = li.replace("<li>", "").split("</li>");
-                      euroMillionsTicket.setN1(Integer.valueOf(numbers[0]));
-                      euroMillionsTicket.setN2(Integer.valueOf(numbers[1]));
-                      euroMillionsTicket.setN3(Integer.valueOf(numbers[2]));
-                      euroMillionsTicket.setN4(Integer.valueOf(numbers[3]));
-                      euroMillionsTicket.setN5(Integer.valueOf(numbers[4]));
+                      euroMillionsTicket.setB1(Integer.valueOf(numbers[0]));
+                      euroMillionsTicket.setB2(Integer.valueOf(numbers[1]));
+                      euroMillionsTicket.setB3(Integer.valueOf(numbers[2]));
+                      euroMillionsTicket.setB4(Integer.valueOf(numbers[3]));
+                      euroMillionsTicket.setB5(Integer.valueOf(numbers[4]));
                       tickets.add(euroMillionsTicket);
 
                   } else if (li.matches("(<li>\\d\\d</li>){2}")) {
@@ -74,6 +74,5 @@ public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingServ
               });
 
         return tickets;
-
     }
 }

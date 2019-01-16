@@ -6,7 +6,6 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 import my.lottery.services.data.EuroMillionsTicket;
-import sun.security.krb5.internal.EncTicketPart;
 
 import java.time.LocalDate;
 
@@ -28,11 +27,11 @@ public class EuroMillionsTicketDto {
     private LocalDate drawDate;
 
     public EuroMillionsTicketDto(EuroMillionsTicket ticket){
-        n1 = ticket.getN1();
-        n2 = ticket.getN2();
-        n3 = ticket.getN3();
-        n4 = ticket.getN4();
-        n5 = ticket.getN5();
+        n1 = ticket.getB1();
+        n2 = ticket.getB2();
+        n3 = ticket.getB3();
+        n4 = ticket.getB4();
+        n5 = ticket.getB5();
         s1 = ticket.getS1();
         s1 = ticket.getS2();
         code = ticket.getCode();
