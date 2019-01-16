@@ -2,7 +2,6 @@ package my.lottery.services.LotterySyndicate;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.client.LotteryClient;
-import my.lottery.rest.dto.EuroMillionsTicketDto;
 import my.lottery.services.DataFetchingService;
 import my.lottery.services.data.EuroMillionsTicket;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +12,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.IntStream;
 
 import static my.lottery.common.LotteryConstants.LOTTERY_SYNDICATE_URL;
 
@@ -53,25 +53,27 @@ public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingServ
                       euroMillionsTicket.setS1(Integer.valueOf(stars[0]));
                       euroMillionsTicket.setS2(Integer.valueOf(stars[1]));
 
-                  } else if (li.matches("(<li>\\S{4}\\d{5}</li>){4}")) {
+                  } else if (li.matches("(<li>\\S{4}\\d{5}</li>)+")) {
                       String[] codes = li.replace("<li>", "").split("</li>");
-                      tickets.get(tickets.size() - 4).setCode(codes[0]);
-                      tickets.get(tickets.size() - 3).setCode(codes[1]);
-                      tickets.get(tickets.size() - 2).setCode(codes[2]);
-                      tickets.get(tickets.size() - 1).setCode(codes[3]);
-                  }else if(li.matches("<li>(Tue|Fri) \\d\\d \\S\\S\\S \\d\\d\\d\\d</li>")){
-                      String drawDateLine = li.replace("<li>", "").replace("</li>","");
+
+                      IntStream.range(0, codes.length)
+                               .forEach(i -> {
+                                   tickets.get(tickets.size() - 1 - i).setCode(codes[i]);
+                               });
+                  } else if (li.matches("<li>(Tue|Fri) \\d\\d \\S\\S\\S \\d\\d\\d\\d</li>")) {
+                      String drawDateLine = li.replace("<li>", "").replace("</li>", "");
                       DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E d MMM yyyy");
                       LocalDate drawDate = LocalDate.parse(drawDateLine, formatter);
-                      tickets.get(tickets.size() - 4).setDrawDate(drawDate);
-                      tickets.get(tickets.size() - 3).setDrawDate(drawDate);
-                      tickets.get(tickets.size() - 2).setDrawDate(drawDate);
-                      tickets.get(tickets.size() - 1).setDrawDate(drawDate);
+
+                      int i = tickets.size() - 1;
+                      while (i>=0 && tickets.get(i).getDrawDate() == null) {
+                          tickets.get(i).setDrawDate(drawDate);
+                          i--;
+                      }
                   }
               });
 
         return tickets;
 
     }
-
 }

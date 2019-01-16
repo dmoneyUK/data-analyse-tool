@@ -31,4 +31,5 @@ public class AppTest {
         this.restTemplate.getForObject("http://localhost:" + port + "/euro-millions/historyResults",
                                        String.class);
     }
+
 }
