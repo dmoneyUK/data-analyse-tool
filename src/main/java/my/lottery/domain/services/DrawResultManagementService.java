@@ -10,8 +10,4 @@ public interface DrawResultManagementService {
 
     List<EuroMillionsDrawResult> getHistoryResults();
 
-    Map<Integer, Integer> getHistoryResultsInPosition(String position);
-
-    EuroMillionsTicket getLuckyDip();
-
 }
