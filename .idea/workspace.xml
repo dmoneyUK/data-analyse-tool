@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a4ddf00-fbce-472b-8df4-ae98d00d9b9f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionDrawResultAssembler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionTicketAssembler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/data/EuroMillionsDrawResult.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DrawResultFetchingService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/NationalLotteryService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsDrawResultDto.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/repository/EuroMillionsDataRepository.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/repository/EuroMillionsDataRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/NationalLotteryService.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DrawResultManagementService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/DrawResultManagementServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/NationalLotteryApi.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/NationalLotteryApi.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicateService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/data/EuroMillionsTicket.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,6 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TicketManagementServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/TicketManagementServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding>
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LotterySyndicateTicketFetchingServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/LotterySyndicateTicketFetchingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -51,34 +48,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NationalLotteryDataFetchingServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java">
+      <file leaf-file-name="DrawResultManagementService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DrawResultManagementService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+            <state relative-caret-position="195">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EuroMillionDrawResultAssembler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionDrawResultAssembler.java">
+      <file leaf-file-name="TicketManagementService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/TicketManagementService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="120">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EuroMillionTicketAssembler.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionTicketAssembler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="51" column="88" lean-forward="false" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -122,8 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/GamingService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/NationalLotteryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/DataFetchingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/EuroMillionsGamingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/NationalLotteryGamingService.java" />
@@ -173,6 +156,8 @@
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionDrawResultAssembler.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionTicketAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/TicketManagementService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DrawResultManagementService.java" />
       </list>
     </option>
   </component>
@@ -445,39 +430,7 @@
               <item name="lottery" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="LotterySyndicate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-analyse-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="nationallottery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-analyse-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-analyse-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-analyse-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lottery" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -789,7 +742,7 @@
       <workItem from="1546696613019" duration="6003000" />
       <workItem from="1546723053049" duration="9960000" />
       <workItem from="1546782521077" duration="10935000" />
-      <workItem from="1547711612251" duration="1467000" />
+      <workItem from="1547711612251" duration="2879000" />
     </task>
     <servers />
   </component>
@@ -826,7 +779,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118000000" />
+    <option name="totallyTimeSpent" value="119412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="6" />
@@ -850,7 +803,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30939227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30939227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3190272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -912,7 +865,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/DrawResultManagementServiceImpl.java</url>
           <line>98</line>
           <properties />
           <option name="timeStamp" value="13" />
@@ -1292,57 +1245,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DrawResultFetchingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionDrawResultAssembler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="60">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/TicketFetchingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionTicketAssembler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/NationalLotteryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="33" column="68" lean-forward="false" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+        <state relative-caret-position="402">
+          <caret line="51" column="88" lean-forward="false" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
           <folding>
-            <marker date="1547712930000" expanded="true" signature="2706:5241" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/LotterySyndicateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1355,6 +1271,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/DrawResultManagementServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="33" column="68" lean-forward="false" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/TicketFetchingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DrawResultFetchingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/TicketManagementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/TicketManagementServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/LotterySyndicateTicketFetchingServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1363,21 +1324,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionDrawResultAssembler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DrawResultManagementService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="195">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionTicketAssembler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="51" column="88" lean-forward="false" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

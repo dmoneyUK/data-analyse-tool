@@ -6,7 +6,7 @@ import my.lottery.domain.data.EuroMillionsTicket;
 import java.util.List;
 import java.util.Map;
 
-public interface NationalLotteryService {
+public interface DrawResultManagementService {
 
     List<EuroMillionsDrawResult> getHistoryResults();
 

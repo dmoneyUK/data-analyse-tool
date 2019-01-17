@@ -3,7 +3,7 @@ package my.lottery.domain.services.nationallottery;
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.repository.EuroMillionsDataRepository;
 import my.lottery.domain.services.DrawResultFetchingService;
-import my.lottery.domain.services.NationalLotteryService;
+import my.lottery.domain.services.DrawResultManagementService;
 import my.lottery.domain.data.EuroMillionsDrawResult;
 import my.lottery.domain.data.EuroMillionsTicket;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +29,7 @@ import static my.lottery.common.LotteryConstants.S2;
 
 @Slf4j
 @Service
-public class NationalLotteryServiceImpl implements NationalLotteryService {
+public class DrawResultManagementServiceImpl implements DrawResultManagementService {
     private final DrawResultFetchingService euroMillionsDataFetchingService;
     private final EuroMillionsDataRepository euroMillionsDataRepository;
 
@@ -44,8 +44,8 @@ public class NationalLotteryServiceImpl implements NationalLotteryService {
     private SecureRandom rand;
 
     @Autowired
-    public NationalLotteryServiceImpl(final EuroMillionsDataRepository euroMillionsDataRepository,
-                                      final DrawResultFetchingService euroMillionsDataFetchingService) {
+    public DrawResultManagementServiceImpl(final EuroMillionsDataRepository euroMillionsDataRepository,
+                                           final DrawResultFetchingService euroMillionsDataFetchingService) {
         this.euroMillionsDataRepository = euroMillionsDataRepository;
         this.euroMillionsDataFetchingService = euroMillionsDataFetchingService;
         rand = new SecureRandom();

@@ -1,7 +1,7 @@
 package my.lottery.rest;
 
 import my.lottery.rest.dto.EuroMillionsTicketDto;
-import my.lottery.domain.services.LotterySyndicateService;
+import my.lottery.domain.services.TicketManagementService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -13,11 +13,11 @@ import java.util.stream.Collectors;
 @RestController
 public class LotterySyndicateApi {
     @Autowired
-    private LotterySyndicateService lotterySyndicateService;
+    private TicketManagementService ticketManagementService;
 
     @RequestMapping(method = RequestMethod.GET, value = "/lottery-syndicate")
     public List<EuroMillionsTicketDto> getHistoryResults() {
-        return lotterySyndicateService.getTickets()
+        return ticketManagementService.getTickets()
                                       .stream()
                                       .map(ticket -> new EuroMillionsTicketDto(ticket))
                                       .collect(Collectors.toList());

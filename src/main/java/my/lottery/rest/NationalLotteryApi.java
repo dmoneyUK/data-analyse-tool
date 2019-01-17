@@ -2,7 +2,7 @@ package my.lottery.rest;
 
 import my.lottery.rest.dto.EuroMillionsDrawResultDto;
 import my.lottery.rest.dto.EuroMillionsTicketDto;
-import my.lottery.domain.services.NationalLotteryService;
+import my.lottery.domain.services.DrawResultManagementService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -18,7 +18,7 @@ import java.util.stream.Collectors;
 public class NationalLotteryApi {
 
     @Autowired
-    private NationalLotteryService euroMillionsService;
+    private DrawResultManagementService euroMillionsService;
 
     @RequestMapping(method = RequestMethod.GET, value = "/historyResults")
     public List<EuroMillionsDrawResultDto> getHistoryResults() {
