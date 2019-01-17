@@ -1,11 +1,8 @@
-package my.lottery.services.LotterySyndicate;
+package my.lottery.domain.assemblers;
 
 import lombok.extern.slf4j.Slf4j;
-import my.lottery.client.LotteryClient;
-import my.lottery.services.DataFetchingService;
-import my.lottery.services.data.EuroMillionsTicket;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import my.lottery.domain.data.EuroMillionsTicket;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -14,24 +11,15 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.IntStream;
 
-import static my.lottery.common.LotteryConstants.LOTTERY_SYNDICATE_URL;
-
 @Slf4j
-@Service("lotterySyndicateDataFetchingService")
-public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingService {
+@Component
+public class EuroMillionTicketAssembler {
 
-    private final LotteryClient lotteryClient;
+    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E d MMM yyyy");
 
-    @Autowired
-    public LotterySyndicateDataFetchingServiceImpl(LotteryClient nationalLotteryClient) {
-        this.lotteryClient = nationalLotteryClient;
-    }
-
-    public List<EuroMillionsTicket> fetchEuroMillionTickets() {
-        String result = this.lotteryClient.get(LOTTERY_SYNDICATE_URL);
-
+    public List<EuroMillionsTicket> toDomain(String html) {
         List<EuroMillionsTicket> tickets = new ArrayList<>();
-        Arrays.stream(result.split("<div class=\"fl-col-content fl-node-content\">"))
+        Arrays.stream(html.split("<div class=\"fl-col-content fl-node-content\">"))
               .filter(col -> col.contains("EuroMillions"))
               .flatMap(content -> Arrays.stream(content.split("<ul>")))
               .filter(ul -> ul.startsWith("\n<li>"))
@@ -62,11 +50,10 @@ public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingServ
                                });
                   } else if (li.matches("<li>(Tue|Fri) \\d\\d \\S\\S\\S \\d\\d\\d\\d</li>")) {
                       String drawDateLine = li.replace("<li>", "").replace("</li>", "");
-                      DateTimeFormatter formatter = DateTimeFormatter.ofPattern("E d MMM yyyy");
                       LocalDate drawDate = LocalDate.parse(drawDateLine, formatter);
 
                       int i = tickets.size() - 1;
-                      while (i>=0 && tickets.get(i).getDrawDate() == null) {
+                      while (i >= 0 && tickets.get(i).getDrawDate() == null) {
                           tickets.get(i).setDrawDate(drawDate);
                           i--;
                       }
@@ -74,5 +61,6 @@ public class LotterySyndicateDataFetchingServiceImpl implements DataFetchingServ
               });
 
         return tickets;
+
     }
 }

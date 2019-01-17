@@ -2,7 +2,7 @@ package my.lottery.repository.impl;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.repository.EuroMillionsDataRepository;
-import my.lottery.services.data.EuroMillionsTicket;
+import my.lottery.domain.data.EuroMillionsTicket;
 import org.springframework.stereotype.Repository;
 
 import java.nio.file.Files;

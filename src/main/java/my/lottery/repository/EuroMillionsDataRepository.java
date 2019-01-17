@@ -1,6 +1,6 @@
 package my.lottery.repository;
 
-import my.lottery.services.data.EuroMillionsTicket;
+import my.lottery.domain.data.EuroMillionsTicket;
 
 import java.util.List;
 

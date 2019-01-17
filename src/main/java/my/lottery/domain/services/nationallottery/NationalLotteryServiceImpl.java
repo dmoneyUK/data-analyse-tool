@@ -1,12 +1,12 @@
-package my.lottery.services.nationallottery;
+package my.lottery.domain.services.nationallottery;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.repository.EuroMillionsDataRepository;
-import my.lottery.services.DataFetchingService;
-import my.lottery.services.NationalLotteryService;
-import my.lottery.services.data.EuroMillionsTicket;
+import my.lottery.domain.services.DrawResultFetchingService;
+import my.lottery.domain.services.NationalLotteryService;
+import my.lottery.domain.data.EuroMillionsDrawResult;
+import my.lottery.domain.data.EuroMillionsTicket;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.security.SecureRandom;
@@ -30,7 +30,7 @@ import static my.lottery.common.LotteryConstants.S2;
 @Slf4j
 @Service
 public class NationalLotteryServiceImpl implements NationalLotteryService {
-    private final DataFetchingService euroMillionsDataFetchingService;
+    private final DrawResultFetchingService euroMillionsDataFetchingService;
     private final EuroMillionsDataRepository euroMillionsDataRepository;
 
     private List<Integer> n1List;
@@ -45,7 +45,7 @@ public class NationalLotteryServiceImpl implements NationalLotteryService {
 
     @Autowired
     public NationalLotteryServiceImpl(final EuroMillionsDataRepository euroMillionsDataRepository,
-                                      final @Qualifier("nationalLotteryDataFetchingService") DataFetchingService euroMillionsDataFetchingService) {
+                                      final DrawResultFetchingService euroMillionsDataFetchingService) {
         this.euroMillionsDataRepository = euroMillionsDataRepository;
         this.euroMillionsDataFetchingService = euroMillionsDataFetchingService;
         rand = new SecureRandom();
@@ -60,12 +60,12 @@ public class NationalLotteryServiceImpl implements NationalLotteryService {
     }
 
     @Override
-    public List<EuroMillionsTicket> getHistoryResults() {
+    public List<EuroMillionsDrawResult> getHistoryResults() {
 
         //TODO call http://lottery.merseyworld.com/cgi-bin/lottery?days=20&Machine=Z&Ballset=0&order=0&show=1&year=0&display=NoTables
-        euroMillionsDataFetchingService.fetchEuroMillionTickets();
+        return euroMillionsDataFetchingService.fetchEuroMillionDrawResults();
 
-        return euroMillionsDataRepository.getHistoryResults();
+        //return euroMillionsDataRepository.getHistoryResults();
     }
 
     @Override

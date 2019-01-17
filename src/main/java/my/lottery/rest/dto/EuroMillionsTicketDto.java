@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-import my.lottery.services.data.EuroMillionsTicket;
+import my.lottery.domain.data.EuroMillionsTicket;
 
 import java.time.LocalDate;
 

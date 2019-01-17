@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" line="15" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/data/EuroMillionsTicket.java" line="17" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a4ddf00-fbce-472b-8df4-ae98d00d9b9f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionDrawResultAssembler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionTicketAssembler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/data/EuroMillionsDrawResult.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DrawResultFetchingService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/NationalLotteryService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsDrawResultDto.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/repository/EuroMillionsDataRepository.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/repository/EuroMillionsDataRepository.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/NationalLotteryApi.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/NationalLotteryApi.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsDrawResult.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsDrawResult.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicateService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" afterPath="$PROJECT_DIR$/src/main/java/my/lottery/domain/data/EuroMillionsTicket.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,44 +41,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EuroMillionsDrawResult.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsDrawResult.java">
+      <file leaf-file-name="LotterySyndicateTicketFetchingServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/LotterySyndicateTicketFetchingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="315">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EuroMillionsDataRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/repository/EuroMillionsDataRepository.java">
+      <file leaf-file-name="NationalLotteryDataFetchingServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="47" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="47" />
+            <state relative-caret-position="135">
+              <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NationalLotteryServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java">
+      <file leaf-file-name="EuroMillionDrawResultAssembler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionDrawResultAssembler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+            <state relative-caret-position="60">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EuroMillionTicketAssembler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionTicketAssembler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="51" column="88" lean-forward="false" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
               <folding>
-                <marker date="1547648790000" expanded="true" signature="2710:5245" ph="//..." />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EuroMillionsTicket.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -92,6 +108,7 @@
       <find>href=\&quot;/results</find>
       <find>toString</find>
       <find>tickets</find>
+      <find>08</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,19 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/HistoryResult.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/client/LotteryClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/A.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestPerson.java" />
-        <option value="$PROJECT_DIR$/src/test/java/others/TestPerson.java" />
-        <option value="$PROJECT_DIR$/src/test/java/HashMapTest/TestPerson.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DataFetchingServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/HashMapTest/HashMapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/model/EuroMillionsResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/GetEuroMillionsResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/repository/model/EuroMillionResultModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/GamingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/NationalLotteryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/EuroMillions/DataFetchingServiceImpl.java" />
@@ -143,19 +147,32 @@
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/EuroMillionsApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/LotterySyndicateApi.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicateService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/NationalLotteryApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java" />
+        <option value="$PROJECT_DIR$/src/test/java/my/lottery/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsDrawResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/DrawResultFetchingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/NationalLotteryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/my/lottery/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsDrawResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsDrawResultDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/rest/NationalLotteryApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domains/services/data/EuroMillionsTicket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domains/data/EuroMillionsDrawResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/data/EuroMillionsDrawResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DataFetchingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/EuroMillionTicketsFetchingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/TicketFetchingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/LotterySyndicateServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/LotterySyndicateTicketFetchingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionDrawResultAssembler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionTicketAssembler.java" />
       </list>
     </option>
   </component>
@@ -347,9 +364,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -400,7 +414,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
@@ -409,7 +423,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="assemblers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
@@ -418,25 +433,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-analyse-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-analyse-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lottery" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -446,16 +443,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lottery" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-analyse-tool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-analyse-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lottery" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="LotterySyndicate" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -466,6 +454,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lottery" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="nationallottery" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -494,6 +483,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -524,9 +516,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/database/changesets" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="my.lottery.domain.assemblers" />
+      <recent name="my.lottery.rest.dto" />
+      <recent name="my.lottery.services" />
       <recent name="my.lottery.services.data" />
       <recent name="my.lottery.services.LotterySyndicate" />
-      <recent name="my.lottery.rest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/database" />
@@ -548,7 +542,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.fetchLotterySyndicateTickets">
+  <component name="RunManager" selected="JUnit.AppTest.fetchEuroMillionsDrawResults">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -749,8 +743,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest.fetchLotterySyndicateTickets" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.fetchEuroMillionsDrawResults" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AppTest.fetchEuroMillionsDrawResults" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AppTest.fetchLotterySyndicateTickets" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest" />
         <item index="3" class="java.lang.String" itemvalue="Spring Boot.Applicaiton" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.AppTest.fetchAllYearsLottoData" />
@@ -795,33 +789,31 @@
       <workItem from="1546696613019" duration="6003000" />
       <workItem from="1546723053049" duration="9960000" />
       <workItem from="1546782521077" duration="10935000" />
+      <workItem from="1547711612251" duration="1467000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 09h 45m 35s.xml">
-      <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
+    <history-entry file="AppTest_fetchEuroMillionsDrawResults - 2019.01.16 at 14h 36m 48s.xml">
+      <configuration name="AppTest.fetchEuroMillionsDrawResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 07m 39s.xml">
-      <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
+    <history-entry file="AppTest_fetchEuroMillionsDrawResults - 2019.01.16 at 14h 47m 20s.xml">
+      <configuration name="AppTest.fetchEuroMillionsDrawResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 11m 34s.xml">
-      <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
+    <history-entry file="AppTest_fetchEuroMillionsDrawResults - 2019.01.16 at 14h 48m 14s.xml">
+      <configuration name="AppTest.fetchEuroMillionsDrawResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 11m 45s.xml">
-      <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
+    <history-entry file="AppTest_fetchEuroMillionsDrawResults - 2019.01.16 at 14h 50m 43s.xml">
+      <configuration name="AppTest.fetchEuroMillionsDrawResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 12m 18s.xml">
-      <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
+    <history-entry file="AppTest_fetchEuroMillionsDrawResults - 2019.01.16 at 14h 51m 25s.xml">
+      <configuration name="AppTest.fetchEuroMillionsDrawResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 13m 55s.xml">
-      <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
+    <history-entry file="AppTest_fetchEuroMillionsDrawResults - 2019.01.16 at 14h 57m 46s.xml">
+      <configuration name="AppTest.fetchEuroMillionsDrawResults" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 14m 36s.xml">
-      <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 15m 14s.xml">
-      <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
+    <history-entry file="AppTest_fetchEuroMillionsDrawResults - 2019.01.16 at 16h 05m 19s.xml">
+      <configuration name="AppTest.fetchEuroMillionsDrawResults" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 15m 38s.xml">
       <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
@@ -829,9 +821,12 @@
     <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 26m 38s.xml">
       <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_fetchLotterySyndicateTickets - 2019.01.16 at 14h 35m 19s.xml">
+      <configuration name="AppTest.fetchLotterySyndicateTickets" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113741000" />
+    <option name="totallyTimeSpent" value="118000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="6" />
@@ -846,9 +841,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3853591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3853591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -856,7 +850,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19889502" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30939227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3190272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -864,39 +858,49 @@
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3853591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30939227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30939227" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31473532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-    </layout>
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -908,28 +912,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryServiceImpl.java</url>
           <line>98</line>
           <properties />
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java</url>
-          <line>71</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/HashMapTest/TestPerson.java</url>
@@ -943,14 +929,8 @@
           <properties />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="306" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="329" />
+      <option name="time" value="338" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1004,34 +984,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar!/org/jsoup/nodes/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5265">
-          <caret line="450" column="0" lean-forward="false" selection-start-line="450" selection-start-column="0" selection-end-line="450" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/liquibase.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="128" column="23" lean-forward="true" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar!/sun/launcher/LauncherHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/TestClass.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1167,19 +1119,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/client/LotteryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1219,14 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="46" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1234,22 +1169,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/DataFetchingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="31" lean-forward="false" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1257,57 +1176,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/rest/NationalLotteryApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="23" column="50" lean-forward="false" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#623#624#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/NationalLotteryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding>
-            <element signature="e#812#813#0" expanded="false" />
-            <element signature="e#881#882#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/my/lottery/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1316,7 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="1003" column="20" lean-forward="true" selection-start-line="1003" selection-start-column="20" selection-end-line="1003" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,7 +1191,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,25 +1206,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="126" column="0" lean-forward="false" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/LotterySyndicate/LotterySyndicateDataFetchingServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="75" column="23" lean-forward="false" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
-          <folding>
-            <marker date="1547648790000" expanded="true" signature="3611:3634" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1370,29 +1217,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/nationallottery/NationalLotteryServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/common/LotteryConstants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+        <state relative-caret-position="225">
+          <caret line="15" column="122" lean-forward="false" selection-start-line="15" selection-start-column="122" selection-end-line="15" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/repository/impl/EuroMillionsDataRepositoryCsvImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <marker date="1547648790000" expanded="true" signature="2710:5245" ph="//..." />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsTicket.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/lottery/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="-3">
+          <caret line="13" column="47" lean-forward="false" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/services/data/EuroMillionsDrawResult.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsTicketDto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="115">
           <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/rest/dto/EuroMillionsDrawResultDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="36" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/rest/NationalLotteryApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/data/EuroMillionsDrawResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/client/LotteryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/data/EuroMillionsTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/DrawResultFetchingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/TicketFetchingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/NationalLotteryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="33" column="68" lean-forward="false" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="68" />
+          <folding>
+            <marker date="1547712930000" expanded="true" signature="2706:5241" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/LotterySyndicateServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding>
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/nationallottery/NationalLotteryDataFetchingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="69" lean-forward="false" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/services/LotterySyndicate/LotterySyndicateTicketFetchingServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionDrawResultAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/lottery/domain/assemblers/EuroMillionTicketAssembler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="51" column="88" lean-forward="false" selection-start-line="51" selection-start-column="88" selection-end-line="51" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

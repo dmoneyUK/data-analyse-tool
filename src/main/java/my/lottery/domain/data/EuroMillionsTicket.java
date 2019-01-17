@@ -1,20 +1,21 @@
-package my.lottery.services.data;
+package my.lottery.domain.data;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode
+@Builder
 @ToString
-public class EuroMillionsDrawResult {
+public class EuroMillionsTicket {
 
     private int b1;
     private int b2;
@@ -23,11 +24,6 @@ public class EuroMillionsDrawResult {
     private int b5;
     private int s1;
     private int s2;
-    private List<String> codes;
+    private String code;
     private LocalDate drawDate;
-
-    public EuroMillionsDrawResult(){
-        this.codes = new ArrayList<>();
-    }
-
 }
