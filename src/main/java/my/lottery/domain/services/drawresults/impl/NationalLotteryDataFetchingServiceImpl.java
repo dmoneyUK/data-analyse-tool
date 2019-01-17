@@ -1,17 +1,14 @@
-package my.lottery.domain.services.nationallottery;
+package my.lottery.domain.services.drawresults.impl;
 
 import lombok.extern.slf4j.Slf4j;
 import my.lottery.client.LotteryClient;
 import my.lottery.domain.assemblers.EuroMillionDrawResultAssembler;
 import my.lottery.domain.data.EuroMillionsDrawResult;
-import my.lottery.domain.services.DrawResultFetchingService;
+import my.lottery.domain.services.drawresults.DrawResultFetchingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import static my.lottery.common.LotteryConstants.EUROMILLION_URL;
 

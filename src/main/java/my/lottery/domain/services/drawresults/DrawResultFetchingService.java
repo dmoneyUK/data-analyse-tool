@@ -1,4 +1,4 @@
-package my.lottery.domain.services;
+package my.lottery.domain.services.drawresults;
 
 import my.lottery.domain.data.EuroMillionsDrawResult;
 
